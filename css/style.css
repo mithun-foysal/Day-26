@@ -1,0 +1,95 @@
+
+
+
+.carousel-caption {
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.thumbnail {
+	position: relative;
+	overflow: hidden;
+}
+/*.insta-text {
+	display: none;
+	opacity:0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	transition: all 0.3s;
+}
+.thumbnail:hover .insta-text{
+	display: block;
+	opacity: 1;
+}*/
+
+.insta-text {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	transition: all 1s;
+}
+.thumbnail:hover .insta-text{
+	top: 0;
+}
+
+.insta-text h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#instagram {
+	background-color: #000;
+}
+
+#about img {
+	margin-right: 10px;
+}
+
+.footer-top {
+	background-color: #373737;
+	color: #fff;
+}
+.footer-bottom {
+	background-color: #333333;
+	color: #fff;
+	padding: 20px 20px;
+}
+/*.footer-bottom .icon i {
+	margin-right: 10px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 10px;
+}
+.footer-bottom .icon a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer-bottom .icon i:hover {
+	color: black;
+	border: 2px solid #000;
+}*/
+
+.radious {
+	position: relative;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.radious > i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.is-sticky {
+	z-index: 100;
+}
